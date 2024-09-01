@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vivire</title>
+    <script type="module" crossorigin src="/Vivire/assets/main-a89b8c24.js"></script>
+    <link rel="stylesheet" href="/Vivire/assets/main-7e37d789.css">
+  </head>
+  <body>
+    <header class="container">
+  <nav class="navbar navbar-expand-lg py-8 border-bottom">
+    <div class="d-flex justify-content-between w-100">
+      <a class="navbar-brand me-8" href="index.html"
+        ><img src="/Vivire/assets/logo-2a0dd0d5.svg" alt="logo"
+      /></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <form class="d-flex position-relative nav-btn h-lg-100" role="search">
+          <input
+            class="form-control bg-white text-danger py-3 px-5"
+            type="search"
+            placeholder="搜尋文章"
+            aria-label="Search"
+          />
+          <button
+            class="btn position-absolute top-50 end-0 translate-middle-y pe-5"
+            type="submit"
+          >
+            <i class="bi bi-search fs-4 text-accent-200"></i>
+          </button>
+        </form>
+        <ul
+          class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold justify-content-lg-center align-items-lg-center"
+        >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">所有文章</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active ms-lg-5" href="#">訂閱方案</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active ms-lg-5"
+              aria-current="page"
+              href="about.html"
+              >關於我們</a
+            >
+          </li>
+          <li>
+            <a href="login.html">
+              <button
+                type="button"
+                class="btn btn-accent-200 text-white fw-bold ms-lg-5 py-lg-4 px-lg-6 w-100 py-3"
+              >
+                登入 / 註冊
+              </button></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <section
+      class="banner container my-lg-12 text-white ps-lg-11 d-flex flex-column justify-content-end align-items-center justify-content-lg-center align-items-lg-start"
+    >
+      <p class="mb-2">獻給新世代的生活風格誌</p>
+      <h1 class="mb-5">一起探索生活的無限可能</h1>
+      <button
+        type="button"
+        class="btn btn-accent-200 text-white mb-10 mb-lg-0 py-lg-4 px-lg-6 py-3 px-5"
+      >
+        馬上訂閱<i class="bi bi-arrow-right ps-lg-3"></i>
+      </button>
+    </section>
+    <!-- 熱門主題 -->
+    <section>
+      <div class="container topic my-lg-12 my-10">
+        <h2 class="mb-6">熱門主題</h2>
+        <ul class="row text-white gy-6 row-cols-lg-4 row-cols-md-2 row-cols-1">
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-1-c3f2428d.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-1-sm-e28ce55e.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              城市漫遊者
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-2-f68e2e55.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-2-sm-2123bacc.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              秘境尋蹤人
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-3-6a361920.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-3-sm-03d78e75.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              品味設計家
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-4-3688ebf7.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-4-sm-0dfc8cb3.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              美食探險記
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-5-b39e8856.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-5-sm-65d802c3.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              美學建築誌
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-6-82f2b629.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-6-sm-fed41742.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              慢活生活行
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-7-88f0cd69.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-7-sm-0e3e7b41.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              工藝匠心賞
+            </p>
+          </li>
+          <li class="position-relative">
+            <div class="topic-card">
+              <img
+                class="d-none d-lg-block"
+                src="/Vivire/assets/theme-8-ce962716.png"
+                alt=""
+              />
+              <img
+                class="d-lg-none d-block"
+                src="/Vivire/assets/theme-8-sm-402e892b.png"
+                alt=""
+              />
+            </div>
+            <p class="position-absolute top-50 start-50 translate-middle">
+              時尚先鋒派
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 精選文章 -->
+    <section>
+      <div class="container article my-lg-12 mt-10">
+        <div class="row">
+          <div class="col-lg-4 d-flex flex-column justify-content-between">
+            <h2 class="mb-6">精選文章</h2>
+            <!-- 桌面板按鈕 -->
+            <div class="d-none d-lg-block">
+              <div class="d-flex align-items-center text-neutral-400">
+                <button class="btn px-4 arrow">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <div class="line mx-5"></div>
+                <button class="btn px-4 arrow">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex">
+            <div
+              class="card-body border-bottom d-flex flex-column justify-content-between align-items-start"
+            >
+              <div>
+                <img
+                  class="mb-6"
+                  src="/Vivire/assets/articles-1-ebc46e31.png"
+                  alt=""
+                /><img src="" alt="" />
+                <h3 class="fs-4 mb-2">私人島嶼的露營奇遇記</h3>
+                <p class="text-neutral-400">
+                  遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...
+                </p>
+              </div>
+              <button class="btn text-accent-200 font-familyTow fw-bold my-6">
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card-body border-bottom">
+              <img
+                class="mb-6"
+                src="/Vivire/assets/articles-2-05d8b79f.png"
+                alt=""
+              /><img src="" alt="" />
+              <h3 class="fs-4 mb-2">窺探米其林三星主廚的絕密手藝</h3>
+              <p class="text-neutral-400">
+                在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...
+              </p>
+              <div class="d-flex justify-content-between my-6">
+                <button class="btn text-accent-200 font-familyTow fw-bold">
+                  Read More
+                </button>
+                <span class="text-primary-400 fw-bold bg-primary-300"
+                  >會員專屬</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 行動版按鈕 -->
+          <div class="d-lg-none">
+            <div
+              class="d-flex align-items-center justify-content-end text-neutral-400 my-10"
+            >
+              <button class="btn px-4 arrow">
+                <i class="bi bi-arrow-left"></i>
+              </button>
+              <div class="line mx-5"></div>
+              <button class="btn px-4 arrow">
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 母親節活動 -->
+    <section class="bg-primary-200">
+      <div
+        class="container discount d-flex flex-column justify-content-center align-items-center py-lg-12 py-10 position-relative"
+      >
+        <h3 class="mb-lg-5 mb-3">\ 母親節強檔活動 /</h3>
+        <h4 class="bm-lg-5 mb-6">家庭訂閱方案限時 7 折</h4>
+        <ul class="d-flex flex-column justify-content-center mb-lg-9 mb-6">
+          <li class="mb-4"><i class="bi bi-check"></i>每月最新文章無限閱讀</li>
+          <li class="mb-4"><i class="bi bi-check"></i>專屬會員限定內容</li>
+          <li class="mb-4"><i class="bi bi-check"></i>定期電子報</li>
+          <li class="mb-4"><i class="bi bi-check"></i>年度精選禮物</li>
+          <li class="mb-4"><i class="bi bi-check"></i>24 /7 優先客戶服務</li>
+          <li><i class="bi bi-check"></i>為每個成員量身打造專屬行程</li>
+        </ul>
+        <button type="button" class="btn btn-accent-200 text-white">
+          我想了解
+        </button>
+      </div>
+    </section>
+    <!-- 大家都在看-桌面板 -->
+    <section>
+      <div class="container everybody my-lg-12 d-lg-block d-none">
+        <h2 class="mb-9">大家都在看</h2>
+        <div class="row">
+          <div class="col-3">
+            <div
+              class="nav flex-column nav-pills bg-white p-4 h-100 list"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active mb-4 p-3 fs-5 text-start"
+                id="v-pills-alcohol-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-alcohol"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-alcohol"
+                aria-selected="true"
+              >
+                ．酒精路跑地圖
+              </button>
+              <button
+                class="nav-link mb-4 p-3 fs-5 text-start"
+                id="v-pills-noodle-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-noodle"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-noodle"
+                aria-selected="false"
+              >
+                ．台灣拉麵地圖
+              </button>
+              <button
+                class="nav-link mb-4 p-3 fs-5 text-start"
+                id="v-pills-island-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-island"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-island"
+                aria-selected="false"
+              >
+                ．海島自由行
+              </button>
+              <button
+                class="nav-link mb-4 p-3 fs-5 text-start"
+                id="v-pills-travel-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-travel"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-travel"
+                aria-selected="false"
+              >
+                ．短天數出門推薦
+              </button>
+              <button
+                class="nav-link mb-4 p-3 fs-5 text-start"
+                id="v-pills-weekend-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-weekend"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-weekend"
+                aria-selected="false"
+              >
+                ．周末露營趣
+              </button>
+            </div>
+          </div>
+          <div class="col-9">
+            <div
+              class="tab-content bg-white h-100 p-40"
+              id="v-pills-tabContent"
+            >
+              <div
+                class="tab-pane fade p-9 show active alcohol"
+                id="v-pills-alcohol"
+                role="tabpanel"
+                aria-labelledby="v-pills-alcohol-tab"
+              >
+                <h3 class="fs-4 my-6 text-accent-200 mx-6">酒精路跑地圖</h3>
+                <ul class="d-grid mb-6 mx-6 text">
+                  <li class="mb-5">
+                    <a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                  </li>
+                  <li class="mb-5">
+                    <a href="#"
+                      >｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a
+                    >
+                  </li>
+                  <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                </ul>
+                <ul class="d-flex img m-4">
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-1.png?raw=true"
+                      class="img-fluid img-one"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-2.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-3.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-4.png?raw=true"
+                      class="img-fluid img-four"
+                      alt="barbar"
+                    />
+                  </li>
+                </ul>
+                <div class="section-footer d-flex justify-content-between">
+                  <ul class="d-flex m-6 tag">
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#夜貓行程</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#barhopping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#全台酒吧</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                  >
+                    View More<i class="bi bi-arrow-right ms-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade p-9 show p-4"
+                id="v-pills-noodle"
+                role="tabpanel"
+                aria-labelledby="v-pills-noodle-tab"
+              >
+                <h3 class="fs-4 my-6 text-accent-200 mx-6">台北拉麵圖鑑</h3>
+                <ul class="d-grid mb-6 mx-6 text">
+                  <li class="mb-5">
+                    <a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                  </li>
+                  <li class="mb-5">
+                    <a href="#"
+                      >｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a
+                    >
+                  </li>
+                  <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                </ul>
+                <ul class="d-flex img m-4">
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-1.png?raw=true"
+                      class="img-fluid img-one"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-2.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-3.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-4.png?raw=true"
+                      class="img-fluid img-four"
+                      alt="bar"
+                    />
+                  </li>
+                </ul>
+                <div class="section-footer d-flex justify-content-between">
+                  <ul class="d-flex m-6 tag">
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#雞白湯</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#拉麵</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#台北美食</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                  >
+                    View More<i class="bi bi-arrow-right ms-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade p-9 show p-4"
+                id="v-pills-island"
+                role="tabpanel"
+                aria-labelledby="v-pills-island-tab"
+              >
+                <h3 class="fs-4 my-6 text-accent-200 mx-6">海島自由行</h3>
+                <ul class="d-grid mb-6 mx-6 text">
+                  <li class="mb-5">
+                    <a href="#">｜私島慢活島嶼生活 - 在熱帶天堂品...</a>
+                  </li>
+                  <li class="mb-5">
+                    <a href="#">｜海島漂流記 - 在陽光、沙灘和比基...</a>
+                  </li>
+                  <li><a href="#">｜島嶼蹤跡 - 揭開加勒比海上世外桃...</a></li>
+                </ul>
+                <ul class="d-flex img m-4">
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-1.png?raw=true"
+                      class="img-fluid img-one"
+                      alt="圖片1"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-2.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-3.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-4.png?raw=true"
+                      class="img-fluid img-four"
+                      alt="bar"
+                    />
+                  </li>
+                </ul>
+                <div class="section-footer d-flex justify-content-between">
+                  <ul class="d-flex m-6 tag">
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#熱帶國家</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#海邊</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#無敵海景</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                  >
+                    View More<i class="bi bi-arrow-right ms-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade p-9 show p-4"
+                id="v-pills-travel"
+                role="tabpanel"
+                aria-labelledby="v-pills-travel-tab"
+              >
+                <h3 class="fs-4 my-6 text-accent-200 mx-6">短天數出國推薦</h3>
+                <ul class="d-grid mb-6 mx-6 text">
+                  <li class="mb-5">
+                    <a href="#">｜72小時東京遊走 - 當個時尚東京通</a>
+                  </li>
+                  <li class="mb-5"><a href="#">｜48小時曼谷遊玩全攻略</a></li>
+                  <li><a href="#">｜三天兩夜賞櫻微醺東京</a></li>
+                </ul>
+                <ul class="d-flex img m-4">
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-1.png?raw=true"
+                      class="img-fluid img-one"
+                      alt="圖片1"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-2.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-3.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-4.png?raw=true"
+                      class="img-fluid img-four"
+                      alt="bar"
+                    />
+                  </li>
+                </ul>
+                <div class="section-footer d-flex justify-content-between">
+                  <ul class="d-flex m-6 tag">
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#說走就走</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#出國玩</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#東亞</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                  >
+                    View More<i class="bi bi-arrow-right ms-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade p-9 show p-4"
+                id="v-pills-weekend"
+                role="tabpanel"
+                aria-labelledby="v-pills-weekend-tab"
+              >
+                <h3 class="fs-4 my-6 text-accent-200 mx-6">週末露營趣</h3>
+                <ul class="d-grid mb-6 mx-6 text">
+                  <li class="mb-5"><a href="#">｜週末說走就走露營記</a></li>
+                  <li class="mb-5"><a href="#">｜城市野營日記</a></li>
+                  <li><a href="#">｜和寵物去露營 - 大自然之旅的雙倍...</a></li>
+                </ul>
+                <ul class="d-flex img m-4">
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-1.png?raw=true"
+                      class="img-fluid img-one"
+                      alt="圖片1"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-2.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-3.png?raw=true"
+                      class="img-fluid"
+                      alt="bar"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024-week6/hots-4.png?raw=true"
+                      class="img-fluid img-four"
+                      alt="bar"
+                    />
+                  </li>
+                </ul>
+                <div class="section-footer d-flex justify-content-between">
+                  <ul class="d-flex m-6 tag">
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#戶外</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#露營控</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                        >#四季</a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                  >
+                    View More<i class="bi bi-arrow-right ms-3"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 大家都在看-手機板 -->
+    <section>
+      <div class="container d-lg-none everybodySm bg-white">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide p-4"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h3 class="fs-6 text-accent-200 mb-3">酒精路跑地圖</h3>
+              <ul class="d-grid">
+                <li class="mb-2">
+                  <a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a>
+                </li>
+                <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+              </ul>
+              <img
+                src="/Vivire/assets/hots-1-sm-d41ead80.png"
+                class="d-block my-4"
+                alt="..."
+              />
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <ul class="d-flex m-6 tag">
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#夜貓行程</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#barhopping</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#全台酒吧</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                >
+                  View More<i class="bi bi-arrow-right ms-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h3 class="fs-6 text-accent-200 mb-3">台北拉麵圖鑑</h3>
+              <ul class="d-grid">
+                <li class="mb-2">
+                  <a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a>
+                </li>
+                <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+              </ul>
+              <img
+                src="/Vivire/assets/hots-2-sm-e66a826f.png"
+                class="d-block my-4"
+                alt="..."
+              />
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <ul class="d-flex m-6 tag">
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#雞白湯</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#拉麵</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#台北美食</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                >
+                  View More<i class="bi bi-arrow-right ms-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h3 class="fs-6 text-accent-200 mb-3">海島自由行</h3>
+              <ul class="d-grid">
+                <li class="mb-2">
+                  <a href="#">｜私島慢活島嶼生活 - 在熱帶天堂品...</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#">｜海島漂流記 - 在陽光、沙灘和比基...</a>
+                </li>
+                <li><a href="#">｜島嶼蹤跡 - 揭開加勒比海上世外桃...</a></li>
+              </ul>
+              <img
+                src="/Vivire/assets/hots-3-sm-5ceb5458.png"
+                class="d-block my-4"
+                alt="..."
+              />
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <ul class="d-flex m-6 tag">
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#熱帶國家</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#海邊</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#無敵海景</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                >
+                  View More<i class="bi bi-arrow-right ms-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h3 class="fs-6 text-accent-200 mb-3">短天數出國推薦</h3>
+              <ul class="d-grid">
+                <li class="mb-2">
+                  <a href="#">｜72小時東京遊走 - 當個時尚東京通</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#">｜48小時曼谷遊玩全攻略 </a>
+                </li>
+                <li><a href="#">｜三天兩夜賞櫻微醺東京</a></li>
+              </ul>
+              <img
+                src="/Vivire/assets/hots-4-sm-9226d072.png"
+                class="d-block my-4"
+                alt="..."
+              />
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <ul class="d-flex m-6 tag">
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#說走就走</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#出國玩</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#東亞</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                >
+                  View More<i class="bi bi-arrow-right ms-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h3 class="fs-6 text-accent-200 mb-3">週末露營趣</h3>
+              <ul class="d-grid">
+                <li class="mb-2">
+                  <a href="#">｜週末說走就走露營記</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#">｜城市野營日記</a>
+                </li>
+                <li><a href="#">｜和寵物去露營 - 大自然之旅的雙倍...</a></li>
+              </ul>
+              <img
+                src="/Vivire/assets/hots-5-sm-42a757ac.png"
+                class="d-block my-4"
+                alt="..."
+              />
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <ul class="d-flex m-6 tag">
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#戶外</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 me-4 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#露營控</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="px-2 py-1 radius-sm fw-bold fs-6 bg-primary-300 text-primary-400"
+                      >#凹豆</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  class="btn d-flex align-items-center view-more text-accent-200 fw-bold font-familyTow fs-5 me-6"
+                >
+                  View More<i class="bi bi-arrow-right ms-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- 品味生活 -->
+    <section>
+      <div class="container life my-lg-12 my-10">
+        <h2 class="mb-9">品味生活</h2>
+        <ul class="row">
+          <li class="col-lg-4 col-md-6">
+            <h3 class="text-primary-400">食.</h3>
+            <img class="my-lg-8 my-6" src="/Vivire/assets/life-1-dc3e4076.png" alt="" />
+
+            <ul class="mb-lg-8 mb-6 text-neutral-500">
+              <li class="mb-5">｜米其林三星主廚的那些絕活傳奇</li>
+              <li class="mb-5">｜探秘成都的地道川味秘技與魅力</li>
+              <li>｜義大利釀酒師對於酒的堅持執著</li>
+            </ul>
+            <div class="d-flex align-items-center justify-content-center">
+              <button
+                class="btn view-more text-accent-200 fw-bold font-familyTow fs-5 d-flex"
+              >
+                View More<i class="bi bi-arrow-right ms-3"></i>
+              </button>
+            </div>
+          </li>
+          <li class="col-lg-4 col-md-6">
+            <h3 class="text-primary-400">藝.</h3>
+            <img class="my-lg-8 my-6" src="/Vivire/assets/life-2-e0514e49.png" alt="" />
+
+            <ul class="mb-lg-8 mb-6 text-neutral-500">
+              <li class="mb-5">｜解構教主級時裝設計大師的獨特美學</li>
+              <li class="mb-5">｜當代攝影師鏡頭中的光影離奇</li>
+              <li>｜帶你穿縮中世紀，夏季文藝復興展</li>
+            </ul>
+            <div class="d-flex align-items-center justify-content-center">
+              <button
+                class="btn view-more text-accent-200 fw-bold font-familyTow fs-5 d-flex"
+              >
+                View More<i class="bi bi-arrow-right ms-3"></i>
+              </button>
+            </div>
+          </li>
+          <li class="col-lg-4 col-md-6">
+            <h3 class="text-primary-400">旅.</h3>
+            <img class="my-lg-8 my-6" src="/Vivire/assets/life-3-5b7bb55a.png" alt="" />
+
+            <ul class="mb-lg-8 mb-6 text-neutral-500">
+              <li class="mb-5">｜遠離喧囂,偶探巴塔哥尼亞終界</li>
+              <li class="mb-5">｜東京深度六區,帶你細品極簡魅力</li>
+              <li>｜專賣奇珍異寶的東歐地下夜市</li>
+            </ul>
+            <div class="d-flex align-items-center justify-content-center">
+              <button
+                class="btn view-more text-accent-200 fw-bold font-familyTow fs-5 d-flex"
+              >
+                View More<i class="bi bi-arrow-right ms-3"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 訂閱-桌面板 -->
+    <section class="bg-primary-200">
+      <div class="container subscribe d-none d-lg-block py-lg-12">
+        <div class="row">
+          <div
+            class="col-lg-6 my-10 d-flex flex-column justify-content-lg-center align-items-lg-start justify-content-center align-items-center"
+          >
+            <h3 class="mb-4">今天又不知道要去哪裡了嗎？</h3>
+            <h2 class="d-none d-lg-block mb-lg-8 fw-bold fs-2">
+              Vivre 給你意想不到的生活風格提案
+            </h2>
+            <div class="d-lg-none fw-900 fs-4 text-center mb-6">
+              <h2 class="mb-2">Vivre</h2>
+              <h2>給你意想不到的生活風格提案</h2>
+            </div>
+            <div>
+              <button type="button" class="btn btn-accent-200 text-white">
+                馬上訂閱<i class="bi bi-arrow-right ms-3"></i>
+              </button>
+            </div>
+          </div>
+          <ul class="col-lg-6 row">
+            <li class="col-lg-6 mt-9">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-2-28f2afc5.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>人氣行程</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    親子露營要帶什麼？
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </li>
+            <li class="col-lg-6">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-1-1192f106.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>編輯推薦</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    山女孩的健行筆記
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </li>
+            <li class="col-lg-6 mt-9">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-4-c31b35a0.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>編輯推薦</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    質感房間改造攻略！
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </li>
+            <li class="col-lg-6 position-relative">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-3-6cd4e17c.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>熱門文章</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    適合溜小孩的海邊景點推薦
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 訂閱-手機板 -->
+    <section class="bg-primary-200">
+      <div class="container subscribe d-lg-none py-10">
+        <div
+          class="my-10 d-flex flex-column justify-content-lg-center align-items-lg-start justify-content-center align-items-center"
+        >
+          <h3 class="mb-4">今天又不知道要去哪裡了嗎？</h3>
+          <div class="d-lg-none fw-900 fs-4 text-center mb-6">
+            <h2 class="mb-2">Vivre</h2>
+            <h2>給你意想不到的生活風格提案</h2>
+          </div>
+          <div>
+            <button type="button" class="btn btn-accent-200 text-white">
+              馬上訂閱<i class="bi bi-arrow-right ms-3"></i>
+            </button>
+          </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active mt-4">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-2-28f2afc5.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>人氣行程</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    親子露營要帶什麼？
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </div>
+            <div class="carousel-item mt-4">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-1-1192f106.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>編輯推薦</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    山女孩的健行筆記
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </div>
+            <div class="carousel-item mt-4">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-4-c31b35a0.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>編輯推薦</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    質感房間改造攻略！
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </div>
+            <div class="carousel-item mt-4">
+              <div class="position-relative">
+                <img src="/Vivire/assets/projects-3-6cd4e17c.png" alt="" /><span
+                  class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
+                  ><i class="bi bi-play-fill me-2"></i>熱門文章</span
+                >
+                <a class="text-primary-100 fw-bold" href="#">
+                  <p class="position-absolute bottom-0 start-0 ps-3">
+                    適合溜小孩的海邊景點推薦
+                  </p>
+                  <i
+                    class="bi bi-arrow-right position-absolute bottom-0 end-0 pe-3"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-lg-12 contact d-none d-lg-block">
+      <div class="d-flex justify-content-lg-between">
+        <h2>想看什麼主題由你決定！</h2>
+        <div>
+          <h3 class="fw-bold mb-3">歡迎投稿與我們分享</h3>
+          <button type="button" class="btn btn-accent-200 text-white">
+            聯絡我們
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container my-10 contact d-lg-none">
+      <div class="d-flex flex-column align-items-center">
+        <h2 class="mb-3">想看什麼主題由你決定！</h2>
+        <h3 class="fw-bold mb-8">歡迎投稿與我們分享</h3>
+        <button type="button" class="btn btn-accent-200 text-white">
+          聯絡我們
+        </button>
+      </div>
+    </section>
+
+    <footer class="container footer">
+  <p class="text-center text-primary-400 py-lg-6 py-5">
+    ©Vivre 2024 All right Reserved
+  </p>
+</footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
