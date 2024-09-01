@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Vivire</title>
   </head>
   <body>
@@ -22,11 +23,12 @@
     <section
       class="banner container my-lg-12 text-white ps-lg-11 d-flex flex-column justify-content-end align-items-center justify-content-lg-center align-items-lg-start"
     >
-      <p class="mb-2">獻給新世代的生活風格誌</p>
-      <h1 class="mb-5">一起探索生活的無限可能</h1>
+      <p class="mb-2" data-aos="fade-right">獻給新世代的生活風格誌</p>
+      <h1 class="mb-5" data-aos="fade-right">一起探索生活的無限可能</h1>
       <button
         type="button"
         class="btn btn-accent-200 text-white mb-10 mb-lg-0 py-lg-4 px-lg-6 py-3 px-5"
+        data-aos="fade-right"
       >
         馬上訂閱<i class="bi bi-arrow-right ps-lg-3"></i>
       </button>
@@ -34,9 +36,9 @@
     <!-- 熱門主題 -->
     <section>
       <div class="container topic my-lg-12 my-10">
-        <h2 class="mb-6">熱門主題</h2>
+        <h2 class="mb-6" data-aos="fade-right">熱門主題</h2>
         <ul class="row text-white gy-6 row-cols-lg-4 row-cols-md-2 row-cols-1">
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -53,7 +55,7 @@
               城市漫遊者
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -70,7 +72,7 @@
               秘境尋蹤人
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -87,7 +89,7 @@
               品味設計家
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -104,7 +106,7 @@
               美食探險記
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -121,7 +123,7 @@
               美學建築誌
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -138,7 +140,7 @@
               慢活生活行
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -155,7 +157,7 @@
               工藝匠心賞
             </p>
           </li>
-          <li class="position-relative">
+          <li class="position-relative" data-aos="zoom-in">
             <div class="topic-card">
               <img
                 class="d-none d-lg-block"
@@ -180,7 +182,7 @@
       <div class="container article my-lg-12 mt-10">
         <div class="row">
           <div class="col-lg-4 d-flex flex-column justify-content-between">
-            <h2 class="mb-6">精選文章</h2>
+            <h2 class="mb-6" data-aos="fade-right">精選文章</h2>
             <!-- 桌面板按鈕 -->
             <div class="d-none d-lg-block">
               <div class="d-flex align-items-center text-neutral-400">
@@ -197,6 +199,7 @@
           <div class="col-lg-4 d-flex">
             <div
               class="card-body border-bottom d-flex flex-column justify-content-between align-items-start"
+              data-aos="zoom-out-left"
             >
               <div>
                 <img
@@ -215,7 +218,7 @@
             </div>
           </div>
           <div class="col-lg-4 d-none d-lg-block">
-            <div class="card-body border-bottom">
+            <div class="card-body border-bottom" data-aos="zoom-out-left">
               <img
                 class="mb-6"
                 src="/assets/images/articles-2.png"
@@ -257,17 +260,33 @@
       <div
         class="container discount d-flex flex-column justify-content-center align-items-center py-lg-12 py-10 position-relative"
       >
-        <h3 class="mb-lg-5 mb-3">\ 母親節強檔活動 /</h3>
-        <h4 class="bm-lg-5 mb-6">家庭訂閱方案限時 7 折</h4>
+        <h3 class="mb-lg-5 mb-3" data-aos="zoom-out">\ 母親節強檔活動 /</h3>
+        <h4 class="bm-lg-5 mb-6" data-aos="zoom-out">家庭訂閱方案限時 7 折</h4>
         <ul class="d-flex flex-column justify-content-center mb-lg-9 mb-6">
-          <li class="mb-4"><i class="bi bi-check"></i>每月最新文章無限閱讀</li>
-          <li class="mb-4"><i class="bi bi-check"></i>專屬會員限定內容</li>
-          <li class="mb-4"><i class="bi bi-check"></i>定期電子報</li>
-          <li class="mb-4"><i class="bi bi-check"></i>年度精選禮物</li>
-          <li class="mb-4"><i class="bi bi-check"></i>24 /7 優先客戶服務</li>
-          <li><i class="bi bi-check"></i>為每個成員量身打造專屬行程</li>
+          <li class="mb-4" data-aos="zoom-out">
+            <i class="bi bi-check"></i>每月最新文章無限閱讀
+          </li>
+          <li class="mb-4" data-aos="zoom-out">
+            <i class="bi bi-check"></i>專屬會員限定內容
+          </li>
+          <li class="mb-4" data-aos="zoom-out">
+            <i class="bi bi-check"></i>定期電子報
+          </li>
+          <li class="mb-4" data-aos="zoom-out">
+            <i class="bi bi-check"></i>年度精選禮物
+          </li>
+          <li class="mb-4" data-aos="zoom-out">
+            <i class="bi bi-check"></i>24 /7 優先客戶服務
+          </li>
+          <li data-aos="zoom-out">
+            <i class="bi bi-check"></i>為每個成員量身打造專屬行程
+          </li>
         </ul>
-        <button type="button" class="btn btn-accent-200 text-white">
+        <button
+          type="button"
+          class="btn btn-accent-200 text-white"
+          data-aos="zoom-out"
+        >
           我想了解
         </button>
       </div>
@@ -275,9 +294,9 @@
     <!-- 大家都在看-桌面板 -->
     <section>
       <div class="container everybody my-lg-12 d-lg-block d-none">
-        <h2 class="mb-9">大家都在看</h2>
+        <h2 class="mb-9" data-aos="fade-right">大家都在看</h2>
         <div class="row">
-          <div class="col-3">
+          <div class="col-3" data-aos="zoom-in-right">
             <div
               class="nav flex-column nav-pills bg-white p-4 h-100 list"
               id="v-pills-tab"
@@ -353,6 +372,7 @@
             >
               <div
                 class="tab-pane fade p-9 show active alcohol"
+                data-aos="flip-down"
                 id="v-pills-alcohol"
                 role="tabpanel"
                 aria-labelledby="v-pills-alcohol-tab"
@@ -432,6 +452,7 @@
               </div>
               <div
                 class="tab-pane fade p-9 show p-4"
+                data-aos="flip-down"
                 id="v-pills-noodle"
                 role="tabpanel"
                 aria-labelledby="v-pills-noodle-tab"
@@ -511,6 +532,7 @@
               </div>
               <div
                 class="tab-pane fade p-9 show p-4"
+                data-aos="flip-down"
                 id="v-pills-island"
                 role="tabpanel"
                 aria-labelledby="v-pills-island-tab"
@@ -588,6 +610,7 @@
               </div>
               <div
                 class="tab-pane fade p-9 show p-4"
+                data-aos="flip-down"
                 id="v-pills-travel"
                 role="tabpanel"
                 aria-labelledby="v-pills-travel-tab"
@@ -663,6 +686,7 @@
               </div>
               <div
                 class="tab-pane fade p-9 show p-4"
+                data-aos="flip-down"
                 id="v-pills-weekend"
                 role="tabpanel"
                 aria-labelledby="v-pills-weekend-tab"
@@ -1018,9 +1042,9 @@
     <!-- 品味生活 -->
     <section>
       <div class="container life my-lg-12 my-10">
-        <h2 class="mb-9">品味生活</h2>
+        <h2 class="mb-9" data-aos="fade-right">品味生活</h2>
         <ul class="row">
-          <li class="col-lg-4 col-md-6">
+          <li class="col-lg-4 col-md-6" div data-aos="flip-up">
             <h3 class="text-primary-400">食.</h3>
             <img class="my-lg-8 my-6" src="/assets/images/life-1.png" alt="" />
 
@@ -1037,7 +1061,7 @@
               </button>
             </div>
           </li>
-          <li class="col-lg-4 col-md-6">
+          <li class="col-lg-4 col-md-6" div data-aos="flip-up">
             <h3 class="text-primary-400">藝.</h3>
             <img class="my-lg-8 my-6" src="/assets/images/life-2.png" alt="" />
 
@@ -1054,7 +1078,7 @@
               </button>
             </div>
           </li>
-          <li class="col-lg-4 col-md-6">
+          <li class="col-lg-4 col-md-6" div data-aos="flip-up">
             <h3 class="text-primary-400">旅.</h3>
             <img class="my-lg-8 my-6" src="/assets/images/life-3.png" alt="" />
 
@@ -1081,22 +1105,31 @@
           <div
             class="col-lg-6 my-10 d-flex flex-column justify-content-lg-center align-items-lg-start justify-content-center align-items-center"
           >
-            <h3 class="mb-4">今天又不知道要去哪裡了嗎？</h3>
-            <h2 class="d-none d-lg-block mb-lg-8 fw-bold fs-2">
+            <h3 class="mb-4" data-aos="fade-right">
+              今天又不知道要去哪裡了嗎？
+            </h3>
+            <h2
+              class="d-none d-lg-block mb-lg-8 fw-bold fs-2"
+              data-aos="fade-right"
+            >
               Vivre 給你意想不到的生活風格提案
             </h2>
             <div class="d-lg-none fw-900 fs-4 text-center mb-6">
-              <h2 class="mb-2">Vivre</h2>
-              <h2>給你意想不到的生活風格提案</h2>
+              <h2 class="mb-2" data-aos="fade-right">Vivre</h2>
+              <h2 data-aos="fade-right">給你意想不到的生活風格提案</h2>
             </div>
             <div>
-              <button type="button" class="btn btn-accent-200 text-white">
+              <button
+                type="button"
+                class="btn btn-accent-200 text-white"
+                data-aos="fade-right"
+              >
                 馬上訂閱<i class="bi bi-arrow-right ms-3"></i>
               </button>
             </div>
           </div>
           <ul class="col-lg-6 row">
-            <li class="col-lg-6 mt-9">
+            <li class="col-lg-6 mt-9" data-aos="zoom-in-up">
               <div class="position-relative">
                 <img src="/assets/images/projects-2.png" alt="" /><span
                   class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
@@ -1112,7 +1145,7 @@
                 ></a>
               </div>
             </li>
-            <li class="col-lg-6">
+            <li class="col-lg-6" data-aos="zoom-in-up">
               <div class="position-relative">
                 <img src="/assets/images/projects-1.png" alt="" /><span
                   class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
@@ -1128,7 +1161,7 @@
                 ></a>
               </div>
             </li>
-            <li class="col-lg-6 mt-9">
+            <li class="col-lg-6 mt-9" data-aos="zoom-in-up">
               <div class="position-relative">
                 <img src="/assets/images/projects-4.png" alt="" /><span
                   class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
@@ -1144,7 +1177,7 @@
                 ></a>
               </div>
             </li>
-            <li class="col-lg-6 position-relative">
+            <li class="col-lg-6 position-relative" data-aos="zoom-in-up">
               <div class="position-relative">
                 <img src="/assets/images/projects-3.png" alt="" /><span
                   class="tag bg-accent-100 fw-bold text-accent-300 py-2 px-3"
@@ -1170,13 +1203,21 @@
         <div
           class="my-10 d-flex flex-column justify-content-lg-center align-items-lg-start justify-content-center align-items-center"
         >
-          <h3 class="mb-4">今天又不知道要去哪裡了嗎？</h3>
+          <h3 class="mb-4" data-aos="fade-right" data-aos="fade-up">
+            今天又不知道要去哪裡了嗎？
+          </h3>
           <div class="d-lg-none fw-900 fs-4 text-center mb-6">
-            <h2 class="mb-2">Vivre</h2>
-            <h2>給你意想不到的生活風格提案</h2>
+            <h2 class="mb-2" data-aos="fade-right" data-aos="fade-up">Vivre</h2>
+            <h2 data-aos="fade-right" data-aos="fade-up">
+              給你意想不到的生活風格提案
+            </h2>
           </div>
           <div>
-            <button type="button" class="btn btn-accent-200 text-white">
+            <button
+              type="button"
+              class="btn btn-accent-200 text-white"
+              data-aos="fade-right"
+            >
               馬上訂閱<i class="bi bi-arrow-right ms-3"></i>
             </button>
           </div>
@@ -1272,10 +1313,14 @@
 
     <section class="container my-lg-12 contact d-none d-lg-block">
       <div class="d-flex justify-content-lg-between">
-        <h2>想看什麼主題由你決定！</h2>
+        <h2 data-aos="fade-right">想看什麼主題由你決定！</h2>
         <div>
-          <h3 class="fw-bold mb-3">歡迎投稿與我們分享</h3>
-          <button type="button" class="btn btn-accent-200 text-white">
+          <h3 class="fw-bold mb-3" data-aos="fade-left">歡迎投稿與我們分享</h3>
+          <button
+            type="button"
+            class="btn btn-accent-200 text-white"
+            data-aos="fade-left"
+          >
             聯絡我們
           </button>
         </div>
@@ -1283,9 +1328,13 @@
     </section>
     <section class="container my-10 contact d-lg-none">
       <div class="d-flex flex-column align-items-center">
-        <h2 class="mb-3">想看什麼主題由你決定！</h2>
-        <h3 class="fw-bold mb-8">歡迎投稿與我們分享</h3>
-        <button type="button" class="btn btn-accent-200 text-white">
+        <h2 class="mb-3" data-aos="fade-up">想看什麼主題由你決定！</h2>
+        <h3 class="fw-bold mb-8" data-aos="fade-up">歡迎投稿與我們分享</h3>
+        <button
+          type="button"
+          class="btn btn-accent-200 text-white"
+          data-aos="fade-up"
+        >
           聯絡我們
         </button>
       </div>
@@ -1303,5 +1352,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
