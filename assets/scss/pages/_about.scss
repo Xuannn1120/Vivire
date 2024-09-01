@@ -1,0 +1,61 @@
+.title {
+  h1 {
+    font-size: 24px;
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+}
+.about {
+  h2 {
+    font-size: 24px;
+    @include desktop {
+      font-size: 32px;
+    }
+  }
+  p {
+    letter-spacing: 0.05em;
+  }
+}
+
+.event {
+  h2 {
+    font-size: 24px;
+    @include desktop {
+      font-size: 32px;
+    }
+  }
+  h3 {
+    font-size: 16px;
+    @include desktop {
+      margin-right: 72px;
+      font-size: 24px;
+    }
+  }
+  .number {
+    font-size: 16px;
+    @include desktop {
+      font-size: 24px;
+    }
+  }
+  .month {
+    font-size: 16px;
+    @include desktop {
+      font-size: 16px;
+      line-height: 28.8px;
+    }
+  }
+  .content {
+    border-left: 1px #adb5bd solid;
+    color: #09090b;
+  }
+}
+
+.wish {
+  h2 {
+    font-size: 24px;
+    @include desktop {
+      font-size: 32px;
+    }
+  }
+}

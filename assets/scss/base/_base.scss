@@ -1,0 +1,43 @@
+body {
+  letter-spacing: 0.1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
+p {
+  margin-bottom: 0px;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+  @include desktop {
+    font-size: 32px;
+  }
+}
+.font-familyTow {
+  font-family: "Newsreader", serif;
+}
+.fw-900 {
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+}
+.ls5 {
+  letter-spacing: 0.05em;
+}

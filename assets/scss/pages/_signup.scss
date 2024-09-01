@@ -1,0 +1,18 @@
+.signup {
+  form {
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @include desktop {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    input {
+      border-radius: 8px;
+    }
+    input::placeholder {
+      color: #adb5bd;
+      font-weight: 600;
+    }
+  }
+}
