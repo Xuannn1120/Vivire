@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Vivire-關於我們</title>
     <script type="module" crossorigin src="/Vivire/assets/main-a89b8c24.js"></script>
     <link rel="stylesheet" href="/Vivire/assets/main-7e37d789.css">
@@ -102,7 +103,7 @@
           <span class="text-accent-200 fw-semibold"> 關於我們</span></a
         >
       </div>
-      <h1 class="text-neutral-500 fw-900">關於我們</h1>
+      <h1 class="text-neutral-500 fw-900" data-aos="fade-right">關於我們</h1>
     </section>
     <section>
       <div class="container about">
@@ -110,12 +111,14 @@
           <li class="col-12 row mx-lg-9 mb-lg-11">
             <img
               class="col-lg-6 mb-6 mb-lg-0 d-none d-lg-block"
+              data-aos="flip-left"
               src="/Vivire/assets/about-1-5ee8beda.png"
               alt="about"
             />
             <img
               class="mb-6 d-lg-none"
               src="/Vivire/assets/about-1-sm-40459836.png"
+              data-aos="flip-left"
               alt="about"
             />
             <div class="col-lg-6">
@@ -144,11 +147,13 @@
             <img
               class="col-lg-6 my-6 my-lg-0 d-lg-block d-none"
               src="/Vivire/assets/about-2-c5237b0a.png"
+              data-aos="flip-left"
               alt="about"
             />
             <img
               class="my-6 d-lg-none"
               src="/Vivire/assets/about-2-sm-de4b8915.png"
+              data-aos="flip-left"
               alt="about"
             />
             <div class="col-lg-6">
@@ -174,9 +179,19 @@
       <div class="container event py-lg-12 py-9">
         <div class="row">
           <div class="col-lg-4">
-            <h2 class="text-center text-lg-start fw-900 mb-6">大事記</h2>
+            <h2
+              class="text-center text-lg-start fw-900 mb-6"
+              data-aos="fade-right"
+            >
+              大事記
+            </h2>
           </div>
-          <div class="col-lg-8">
+          <div
+            class="col-lg-8"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <ul>
               <ol class="d-lg-flex align-items-lg-start mb-lg-12 mb-9">
                 <h3
@@ -356,6 +371,9 @@
         <div class="row d-flex justify-content-center my-lg-12 my-9">
           <div
             class="col-lg-8 d-flex flex-column justify-content-center align-items-center"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             <h2 class="fw-900">品牌願景</h2>
             <p class="mx-lg-9 my-lg-8 my-6 ls5">
@@ -387,5 +405,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
